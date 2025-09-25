@@ -1,0 +1,227 @@
+# متطلبات خدمة التقييمات الذكية - مشروع نائبك
+
+# Django والمكونات الأساسية
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-filter==23.3
+
+# قاعدة البيانات
+psycopg2-binary==2.9.7
+
+# المصادقة والأمان
+djangorestframework-simplejwt==5.3.0
+PyJWT==2.8.0
+cryptography==41.0.7
+
+# التخزين المؤقت
+django-redis==5.4.0
+redis==5.0.1
+
+# التحكم في المعدل
+django-ratelimit==4.1.0
+
+# التحقق من البيانات
+email-validator==2.1.0
+python-dateutil==2.8.2
+pytz==2023.3
+
+# المهام غير المتزامنة
+celery==5.3.4
+django-celery-beat==2.5.0
+
+# معالجة النصوص والمحتوى
+bleach==6.1.0
+profanity-check==1.0.3
+textblob==0.17.1
+
+# التشفير والأمان المتقدم
+django-axes==6.1.1
+argon2-cffi==23.1.0
+
+# التحليلات والإحصائيات
+pandas==2.1.3
+numpy==1.25.2
+scipy==1.11.4
+
+# الرسوم البيانية والتصور
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+
+# التخزين السحابي (اختياري)
+google-cloud-storage==2.10.0
+django-storages==1.14.2
+
+# المراقبة والسجلات
+sentry-sdk==1.38.0
+django-extensions==3.2.3
+
+# الاختبارات
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+coverage==7.3.2
+faker==20.1.0
+
+# أدوات التطوير
+black==23.10.1
+flake8==6.1.0
+isort==5.12.0
+pre-commit==3.5.0
+
+# خدمات الويب
+gunicorn==21.2.0
+uvicorn==0.24.0
+whitenoise==6.6.0
+
+# متغيرات البيئة
+python-decouple==3.8
+python-dotenv==1.0.0
+
+# التوثيق
+drf-spectacular==0.26.5
+
+# أدوات مساعدة
+requests==2.31.0
+python-slugify==8.0.1
+django-model-utils==4.3.1
+
+# معالجة الوقت والتواريخ
+arrow==1.3.0
+humanize==4.8.0
+
+# التحقق من الملفات
+python-magic==0.4.27
+filetype==1.2.0
+
+# إدارة المهام
+django-q==1.3.9
+
+# التحقق من الأمان
+django-security==0.17.0
+django-csp==3.7
+
+# معالجة النصوص العربية
+python-arabic-reshaper==3.0.0
+bidi==0.4.2
+
+# تحسين الأداء
+django-cachalot==2.6.1
+django-debug-toolbar==4.2.0
+
+# إدارة الملفات
+django-cleanup==8.0.0
+
+# التحقق من المحتوى
+langdetect==1.0.9
+
+# الجغرافيا والمواقع (للإحصائيات)
+geopy==2.4.0
+geoip2==4.7.0
+
+# تحسين قاعدة البيانات
+django-bulk-update==2.2.0
+django-bulk-sync==3.3.0
+
+# التحقق من الروابط
+validators==0.22.0
+
+# إدارة الجلسات المتقدمة
+django-user-sessions==2.0.0
+
+# تحسين الاستعلامات
+django-silk==5.0.4
+
+# إدارة الإعدادات
+django-constance==3.1.0
+
+# التحقق من الهوية المتقدم
+django-otp==1.2.2
+
+# تحسين الذاكرة
+memory-profiler==0.61.0
+
+# إدارة الأذونات المتقدمة
+django-guardian==2.4.0
+
+# معالجة البيانات المتقدمة
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# التحليل الإحصائي المتقدم
+scikit-learn==1.3.2
+statsmodels==0.14.0
+
+# معالجة الصور (للشعارات والأيقونات)
+Pillow==10.0.1
+easy-thumbnails==2.8.5
+
+# التحقق من جودة الكود
+bandit==1.7.5
+safety==2.3.5
+
+# إدارة التكوين المتقدمة
+dynaconf==3.2.4
+
+# التحليل النصي المتقدم
+nltk==3.8.1
+spacy==3.7.2
+
+# إدارة الملفات المؤقتة
+django-cleanup==8.0.0
+
+# التحقق من الأداء
+django-silk==5.0.4
+py-spy==0.3.14
+
+# إدارة الإشعارات
+django-notifications-hq==1.8.3
+
+# التحقق من الجودة
+sonar-python-plugin==4.0.0
+
+# إدارة الواجهات البرمجية
+django-rest-swagger==2.2.0
+coreapi==2.3.3
+
+# التحليل المتقدم للبيانات
+jupyter==1.0.0
+ipython==8.18.1
+
+# إدارة الملفات الكبيرة
+django-storages==1.14.2
+boto3==1.34.0
+
+# التحقق من الأمان المتقدم
+django-security==0.17.0
+python-jose==3.3.0
+
+# إدارة الذاكرة المتقدمة
+psutil==5.9.6
+
+# التحليل الزمني
+python-dateutil==2.8.2
+pytz==2023.3
+
+# إدارة الاستعلامات المعقدة
+django-query-counter==0.3.0
+
+# التحقق من الأداء المتقدم
+locust==2.17.0
+
+# إدارة البيانات الضخمة
+dask==2023.11.0
+
+# التحليل الإحصائي المتقدم
+pingouin==0.5.3
+
+# إدارة الملفات المضغوطة
+zipfile36==0.1.3
+
+# التحقق من التوافق
+django-upgrade==1.15.0
+
+# إدارة الإعدادات المتقدمة
+python-environ==0.11.2
