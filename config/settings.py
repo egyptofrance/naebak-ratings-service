@@ -193,8 +193,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 # API Documentation
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Naebak Auth Service API',
-    'DESCRIPTION': 'خدمة المصادقة وإدارة المستخدمين لمنصة نائبك',
+    'TITLE': 'Naebak Ratings Service API',
+    'DESCRIPTION': 'خدمة التقييمات والمراجعات لمنصة نائبك',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
     'COMPONENT_SPLIT_REQUEST': True,
